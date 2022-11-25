@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_curriculum.css" type="text/css" title="estilos" media="screen,print">
+    <title>Registro</title>
+    <script src="validar.js"></script>
+</head>
+<body class="body-registro">
+    <section class="cuadro-de-formulario">
+        <h1>Formulario de registro</h1>
+        <img class="img-registro" src="./img_1/fondo_2.png" alt="">
+        <aside class="aside-crear-cuenta">
+            <h2>CREAR CUENTA</h2>
+            <img class="img-face" src="./img_1/perfil.jpg" alt="">
+            <form action="registrar.php" method="post" onsubmit="validar()">
+                <div class="contenedor-inputs">
+                    <input type="text" id="nombre" name="nombre" placeholder="Primer Nombre" class="input-48">
+                    <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos" class="input-48">
+                    <input tyspe="text" id="correo" name="correo" placeholder="Email" class="input-48">
+                    <input type="text" id="usuario" name="usuario" placeholder="Usuario" class="input-48">
+                    <input type="password" id="clave" name="clave" placeholder="Contraseña" class="input-48">
+                    <input type="number" id="telefono" name="telefono" placeholder="Teléfono" class="input-48">
+                    <input type="text" id="comentario" name="comentario" placeholder="comentario" class="input-100">
+                    <input type="submit" name="boton" value="Registrar" class="btn-enviar">
+                    <p class="parrafo-regresar">¿Ya tienes una cuenta? <a href="inicio.html"> Ingresa aquí</a></p>
+                </div>
+            </form>
+        </aside>
+    </section>
+
+    <footer class="footer-registro">
+        <a href="/index.html">Regresar al inicio</a>
+    </footer>
+</body>
+</html>

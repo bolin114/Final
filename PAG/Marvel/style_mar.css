@@ -1,0 +1,28 @@
+img.img-thumbnail {
+  margin-top: 10%;
+  width: 80%;
+  height: 80%;
+  box-shadow: 0 3px 40px rgb(0, 255, 242); 
+}
+
+img.img-thumbnail:hover{
+  box-shadow: 0 3px 40px rgb(238, 255, 0); 
+}
+
+h3{
+  margin-top: 3%;
+  color: white;
+}
+
+.regresar{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
+  box-shadow: 0 3px .1px rgb(255, 38, 0); /*color del borde*/
+  color: white;
+}
+
+.regresar:hover{
+  text-decoration: none;
+  box-shadow: 0 3px .1px rgb(255, 251, 0); 
+  color: yellow;
+}
